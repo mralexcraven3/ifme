@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails',                      '4.2.6'
+gem 'rails', '5.2.8.1'
 
 gem 'bcrypt',                     '3.1.11'
 gem 'pg',                         '0.18.4'
@@ -46,9 +46,9 @@ group :development, :test do
   gem 'spring',                     '1.3.6'
   gem 'quiet_assets'
 
-  gem 'annotate',                   '~> 2.6', '>= 2.6.10'
+  gem 'annotate', '~> 2.7', '>= 2.7.1'
   gem 'railroady',                  '1.4.2'
-  gem 'rails-erd',                  '~> 1.4', '>= 1.4.4'
+  gem 'rails-erd', '~> 1.5', '>= 1.5.0'
 
   gem 'better_errors',              '~> 2.1', '>= 2.1.1'
   gem 'byebug',                     '9.0.5'
