@@ -1,0 +1,1045 @@
+repo_name: mralexcraven3/ifme
+report_id: 8664063531859420a9e2cdf43d2d9392
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-14T00:35:27+00:00'
+requested_by: julianguyen
+provider: github
+branch: master
+detected_tools_count: 69
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/mralexcraven3/ifme
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/mralexcraven3/ifme
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  version: 2.3.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Repo Metadata
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 4.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  version: '9.6'
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/docker-compose.yml
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: Pusher
+  description: Hosted APIs to build realtime apps with less code
+  website_url: http://pusher.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/115/preview.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: Capybara
+  description: Acceptance test framework for web applications
+  website_url: http://jnicklas.github.io/capybara/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2595/capybara.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/mralexcraven3/ifme
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2016-08-07 03:08:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mralexcraven3/ifme
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 2.4.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: 3.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: Rails Spring
+  description: Rails application preloader
+  website_url: https://github.com/rails/spring
+  version: 1.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Rails Testing
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 0.40.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: Heroku
+  description: Build, deliver, monitor and scale web apps and APIs with a trail blazing
+    developer experience.
+  website_url: https://www.heroku.com
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/133/3wgIDj3j.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: CarrierWave
+  description: Classier solution for file uploads for Rails, Sinatra and other Ruby
+    web frameworks
+  website_url: https://github.com/carrierwaveuploader/carrierwave
+  version: 0.11.2
+  open_source: false
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Uploads
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: Cloudinary
+  description: An end-to-end image &amp; video management solution for your web and
+    mobile applications
+  website_url: http://cloudinary.com/
+  open_source: false
+  hosted_saas: true
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/304/default_d0fb82038ec18f67ca33bf6ce0df0bffb427e94f.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/config/environments/production.rb
+  detection_source: config/environments/production.rb
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: CKEditor
+  description: A modern, feature-rich JavaScript text editor
+  website_url: https://ckeditor.com/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2067/default_ad03c0339f239720488750864f93bd9504b740c5.jpg
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: Devise
+  description: Flexible authentication solution for Rails with Warden
+  website_url: https://github.com/plataformatec/devise
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1432/devise.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: OmniAuth
+  description: OmniAuth is a flexible authentication system utilizing Rack middleware.
+  website_url: https://github.com/intridea/omniauth
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1433/omniauth.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: UglifyJS
+  description: A JavaScript parser, minifier, compressor and beautifier toolkit.
+  website_url: http://lisperator.net/uglifyjs/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2203/default_9058af6f02375a99f634f537d727e32df92ac262.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: uglifier
+  description: Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible
+    in Ruby
+  package_url: https://rubygems.org/uglifier
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18967/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+  vulnerabilities:
+  - name: Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js
+    cve_id: CVE-2015-8857
+    cve_url: https://github.com/advisories/GHSA-34r7-q49f-h37c
+    detected_date: Mar 28
+    severity: critical
+    first_patched: 2.7.2
+- name: better_errors
+  description: Provides a better error page for Rails and other Rack apps
+  package_url: https://rubygems.org/better_errors
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19224/default_90da4313847baa579409c050c1ebb8de5a6e0fbc.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2017-05-31 07:24:22.000000000 Z
+  vulnerabilities:
+  - name: Older releases of better_errors open to Cross-Site Request Forgery attack
+    cve_id: CVE-2021-39197
+    cve_url: https://github.com/advisories/GHSA-w3j4-76qw-wwjm
+    detected_date: Sep 8
+    severity: moderate
+    first_patched: 2.8.0
+- name: devise_invitable
+  description: It adds support for send invitations by email
+  package_url: https://rubygems.org/devise_invitable
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+  vulnerabilities:
+  - name: Possibility to circumvent the invitation token expiry period
+    cve_id: CVE-2023-48220
+    cve_url: https://github.com/advisories/GHSA-w3q8-m492-4pwp
+    detected_date: Feb 21
+    severity: moderate
+    first_patched: 2.0.9
+- name: jquery-rails
+  description: This gem provides jQuery and the jQuery-ujs driver for your Rails 4+
+    application
+  package_url: https://rubygems.org/jquery-rails
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18864/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: jQuery Cross Site Scripting vulnerability'
+    cve_id: CVE-2020-23064
+    cve_url: https://github.com/advisories/GHSA-257q-pv89-v3xv
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Cross-Site Scripting (XSS) in jquery
+    cve_id: CVE-2015-9251
+    cve_url: https://github.com/advisories/GHSA-rmxg-73gg-4p98
+    detected_date: Jul 6
+    severity: moderate
+    first_patched: 4.2.0
+  - name: XSS in jQuery as used in Drupal, Backdrop CMS, and other products
+    cve_id: CVE-2019-11358
+    cve_url: https://github.com/advisories/GHSA-6c3j-c64m-qhgq
+    detected_date: May 31
+    severity: moderate
+    first_patched: 4.3.4
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11022
+    cve_url: https://github.com/advisories/GHSA-gxr4-xjj5-5px2
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 4.4.0
+  - name: Potential XSS vulnerability in jQuery
+    cve_id: CVE-2020-11023
+    cve_url: https://github.com/advisories/GHSA-jpcq-cgw6-v4j6
+    detected_date: May 5
+    severity: moderate
+    first_patched: 4.4.0
+- name: kaminari
+  description: Kaminari is a Scope &amp;amp; Engine based
+  package_url: https://rubygems.org/kaminari
+  version: 0.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18941/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+  vulnerabilities:
+  - name: Cross-Site Scripting in Kaminari
+    cve_id: CVE-2020-11082
+    cve_url: https://github.com/advisories/GHSA-r5jw-62xg-j433
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 1.2.1
+- name: resque
+  description: Resque is a Redis-backed Ruby library for creating background jobs,
+    placing those jobs on multiple queues, and processing them later
+  package_url: https://rubygems.org/resque
+  version: 1.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18962/default_f9bc6c6a5978c018d43da336e52fa9c3d29745bd.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+  vulnerabilities:
+  - name: Resque vulnerable to reflected XSS in Queue Endpoint
+    cve_id: CVE-2023-50727
+    cve_url: https://github.com/advisories/GHSA-r9mq-m72x-257g
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 2.6.0
+  - name: Resque vulnerable to reflected XSS in resque-web failed and queues lists
+    cve_id: CVE-2023-50725
+    cve_url: https://github.com/advisories/GHSA-gc3j-vvwf-4rp8
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 2.2.1
+  - name: Resque vulnerable to Reflected Cross Site Scripting through pathnames
+    cve_id: CVE-2023-50724
+    cve_url: https://github.com/advisories/GHSA-r8xx-8vm8-x6wj
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 2.1.0
+- name: resque-scheduler
+  description: Light weight job scheduling on top of Resque
+  package_url: https://rubygems.org/resque-scheduler
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19622/default_d37ff20732085afc2eeb7f1d2b8b65e3bde035f1.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Resque Scheduler Reflected XSS In Delayed Jobs View'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-q7jc-v6f2-q9jr
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 4.10.2
+  - name: Resque Scheduler Reflected XSS In Delayed Jobs View
+    cve_id: CVE-2022-44303
+    cve_url: https://github.com/advisories/GHSA-9hmq-fm33-x4xx
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 4.10.2
+- name: annotate
+  description: Annotates Rails/ActiveRecord Models
+  package_url: https://rubygems.org/annotate
+  version: 2.7.1
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19550/default_65fd8d3cf98551f2f8f1e0cffcf1132cb03ee4fd.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: bcrypt
+  description: Bcrypt
+  package_url: https://rubygems.org/bcrypt
+  version: 3.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19054/default_2be036aaca5c71baf790e00f1ef80dd37a625905.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: bootstrap-datepicker-rails
+  description: A date picker for Twitter Bootstrap
+  package_url: https://rubygems.org/bootstrap-datepicker-rails
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: byebug
+  description: Byebug is a Ruby debugger
+  package_url: https://rubygems.org/byebug
+  version: 9.0.5
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18849/default_887cb273c504fac90d07fc552b7b223fbb32ca39.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: certified
+  description: Ensure net/https uses OpenSSL::SSL::VERIFY_PEER to verify SSL certificates
+    and provides certificate bundle in case OpenSSL cannot find one
+  package_url: https://rubygems.org/certified
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: chronic
+  description: Chronic is a natural language date/time parser written in pure Ruby
+  package_url: https://rubygems.org/chronic
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18990/default_c2edad6777219a9d77730c33c0ffc3c4598d107f.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: compass-rails
+  description: Integrate Compass into Rails 3.0 and up
+  package_url: https://rubygems.org/compass-rails
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19229/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: database_cleaner
+  description: Strategies for cleaning databases
+  package_url: https://rubygems.org/database_cleaner
+  version: 1.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18854/default_09811c2c16af4754129f39ba1dab0d23ca3d2476.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena Aguayo
+  last_updated_on: 2016-08-28 17:36:22.000000000 Z
+- name: dotenv
+  description: Loads environment variables from `.env`
+  package_url: https://rubygems.org/dotenv
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18872/default_9f8a49220f5ab59465a6f5b8564bea999428120f.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-11-18 06:33:31.000000000 Z
+- name: factory_girl_rails
+  description: Factory_girl_rails provides integration between factory_girl and rails
+    3 or newer
+  package_url: https://rubygems.org/factory_girl_rails
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18885/default_2ee21c0657d6b4f7c9a25f371c4eb30f678e82bb.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: figaro
+  description: Simple
+  package_url: https://rubygems.org/figaro
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19607/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena Aguayo
+  last_updated_on: 2016-10-02 02:33:36.000000000 Z
+- name: foundation-rails
+  description: Foundation on Sass/Compass
+  package_url: https://rubygems.org/foundation-rails
+  version: 6.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: friendly_id
+  description: FriendlyId is the "Swiss Army bulldozer" of slugging and permalink
+    plugins for Active Record
+  package_url: https://rubygems.org/friendly_id
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19084/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2017-01-12 18:49:09.000000000 Z
+- name: google-api-client
+  description: Client for accessing Google APIs
+  package_url: https://rubygems.org/google-api-client
+  version: 0.8.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19045/default_8e63d728a80a51124866bbe6b8c09396c40f1d4f.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: guard
+  description: Guard is a command line tool to easily handle events on file system
+    modifications
+  package_url: https://rubygems.org/guard
+  version: 2.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18840/default_1d2091bec60de04a519a030cf3cb21ea7f86b28a.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: i18n-js
+  description: It's a small library to provide the Rails I18n translations on the
+    Javascript
+  package_url: https://rubygems.org/i18n-js
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: jbuilder
+  description: Create JSON structures via a Builder-style DSL
+  package_url: https://rubygems.org/jbuilder
+  version: 2.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19105/default_fca7ffebc4c078263714788a3e4853bf74bde297.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: letter_opener
+  description: When mail is sent from your application
+  package_url: https://rubygems.org/letter_opener
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19448/default_e4a5b1b71ba74142a85637613923d64b06712541.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2017-05-31 07:24:22.000000000 Z
+- name: omniauth-google-oauth2
+  description: A Google OAuth2 strategy for OmniAuth 1.x
+  package_url: https://rubygems.org/omniauth-google-oauth2
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  version: 0.18.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: julianguyen
+  last_updated_on: 2014-04-19 07:00:33.000000000 Z
+- name: pry-rails
+  description: Use Pry as your rails console
+  package_url: https://rubygems.org/pry-rails
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19013/default_3667c8b28d9ec2ad93884ef523ec8f357774f78e.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: quiet_assets
+  description: Quiet Assets turns off Rails asset pipeline log
+  package_url: https://rubygems.org/quiet_assets
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19540/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: rails-erd
+  description: Automatically generate an entity-relationship diagram
+  package_url: https://rubygems.org/rails-erd
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: rails-i18n
+  description: A set of common locale data and translations to internationalize and/or
+    localize your Rails applications
+  package_url: https://rubygems.org/rails-i18n
+  version: 4.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19125/default_8cdfa50e17bca4b467d6718a237904b98923651a.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: rails_12factor
+  description: Run Rails the 12factor way
+  package_url: https://rubygems.org/rails_12factor
+  version: 0.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: resque_mailer
+  description: Rails plugin for sending asynchronous email with ActionMailer and Resque
+  package_url: https://rubygems.org/resque_mailer
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: rspec-collection_matchers
+  description: Collection cardinality matchers
+  package_url: https://rubygems.org/rspec-collection_matchers
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19021/default_507eef785a48577c5983d32818431fef23fc4e87.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2017-05-31 07:24:22.000000000 Z
+- name: rspec-rails
+  description: Rspec-rails is a testing framework for Rails 3+
+  package_url: https://rubygems.org/rspec-rails
+  version: 3.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18830/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2017-05-31 07:24:22.000000000 Z
+- name: rspec_junit_formatter
+  description: RSpec results that your continuous integration service can read
+  package_url: https://rubygems.org/rspec_junit_formatter
+  version: 0.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18911/default_6011c3e13c0feeff577120981a21a5968e50756a.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Julia Nguyen
+  last_updated_on: 2017-05-31 07:24:22.000000000 Z
+- name: ruby-graphviz
+  description: Ruby/Graphviz provides an interface to layout and generate images of
+    directed graphs in a variety of formats
+  package_url: https://rubygems.org/ruby-graphviz
+  version: 1.2.2
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19203/default_33c8326f97a56642e8765668fc1ba3bfeb911247.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: sass-rails
+  description: Sass adapter for the Rails asset pipeline
+  package_url: https://rubygems.org/sass-rails
+  version: 5.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18876/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
+- name: sdoc
+  description: Rdoc generator html with javascript search index
+  package_url: https://rubygems.org/sdoc
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19261/default_4ed5689ec4d74680b66320d503f54e39a95d4848.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: selenium-webdriver
+  description: WebDriver is a tool for writing automated tests of websites
+  package_url: https://rubygems.org/selenium-webdriver
+  version: 2.53.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18901/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: simplecov
+  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
+    automatic merging of coverage across test suites
+  package_url: https://rubygems.org/simplecov
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Chris
+  last_updated_on: 2016-09-25 19:27:25.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  version: 1.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: starbelly
+  last_updated_on: 2016-06-04 03:16:35.000000000 Z
+- name: turbolinks
+  description: Rails engine for Turbolinks 5 support
+  package_url: https://rubygems.org/turbolinks
+  version: 2.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19167/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Bruno Casali
+  last_updated_on: 2016-12-30 01:58:52.000000000 Z
+- name: underscore-rails
+  description: Underscore.js asset pipeline provider/wrapper
+  package_url: https://rubygems.org/underscore-rails
+  version: 1.8.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/mralexcraven3/ifme/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Siena
+  last_updated_on: 2017-01-06 06:04:17.000000000 Z
